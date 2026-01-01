@@ -14,7 +14,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://digital250.com'),
+  metadataBase: new URL('https://digital-art-archive.vercel.app/'),
   title: "The Digital 250 | Complete AP Art History Archive & Study Guide",
   description: "The ultimate interactive archive of the 250 required works for AP Art History. Featuring high-resolution images, FFCC analysis, and curator notes for every masterpiece from Global Prehistory to Contemporary Art.",
   keywords: [
