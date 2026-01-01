@@ -70,7 +70,7 @@ export default async function Page({ params }: PageProps) {
         },
         "description": art.story,
         "artMedium": art.collegeBoardLine,
-        "image": art.images[0],
+        "image": new URL(art.images[0], 'https://digital-art-archive.vercel.app').toString(),
         "about": art.unit,
         "isPartOf": {
             "@type": "Collection",
