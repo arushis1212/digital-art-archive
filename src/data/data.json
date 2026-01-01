@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "Sample Art Piece 1",
+    "artist": "Unknown Artist",
+    "year": "Circa 1500",
+    "image": "/placeholder.jpg",
+    "frameType": "gold",
+    "details": {
+      "form": "Oil on canvas, use of chiaroscuro.",
+      "function": "Religious devotion.",
+      "content": "Depiction of a saint.",
+      "context": "Created during the High Renaissance in Italy."
+    }
+  },
+  {
+    "id": "2",
+    "title": "Sample Art Piece 2",
+    "artist": "Modern Master",
+    "year": "1920",
+    "image": "/placeholder.jpg",
+    "frameType": "black",
+    "details": {
+      "form": "Abstract geometric shapes.",
+      "function": "Expression of movement.",
+      "content": "Non-representational.",
+      "context": "Post-war avant-garde movement."
+    }
+  },
+  {
+    "id": "3",
+    "title": "Sample Art Piece 3",
+    "artist": "Classical Sculptor",
+    "year": "300 BC",
+    "image": "/placeholder.jpg",
+    "frameType": "wood",
+    "details": {
+      "form": "Marble sculpture, contrapposto.",
+      "function": "Public monument.",
+      "content": "Mythological figure.",
+      "context": "Hellenistic period Greece."
+    }
+  }
+]

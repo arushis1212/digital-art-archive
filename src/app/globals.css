@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F9F7F1;
+  /* Warm Cream */
+  --foreground: #2C2A29;
+  /* Espresso Brown */
+  --card: #FFFFFF;
+  --card-foreground: #2C2A29;
+  --popover: #F9F7F1;
+  --popover-foreground: #2C2A29;
+  --primary: #2C2A29;
+  --primary-foreground: #F9F7F1;
+  --secondary: #EBE9E4;
+  /* Slightly darker cream for UI elements */
+  --secondary-foreground: #2C2A29;
+  --muted: #EBE9E4;
+  --muted-foreground: #6B6866;
+  /* Muted brown-grey */
+  --accent: #C5A059;
+  /* Antique Gold */
+  --accent-foreground: #F9F7F1;
+  --destructive: #ef4444;
+  --destructive-foreground: #fafafa;
+  --border: #D1CDC7;
+  /* Soft stone color */
+  --input: #EBE9E4;
+  --ring: #C5A059;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: calc(var(--radius));
+  --radius-lg: calc(var(--radius) + 2px);
+  --font-sans: var(--font-lato);
+  --font-serif: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-lato), sans-serif;
+  overflow-x: hidden;
+  font-weight: 300;
+  /* Lighter weight for "book page" feel */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair), serif;
+  color: var(--foreground);
+}
+
+h1,
+h2 {
+  letter-spacing: 0.05em;
+  /* tracking-wide */
+}
