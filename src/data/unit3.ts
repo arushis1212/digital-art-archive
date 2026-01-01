@@ -211,7 +211,7 @@ export const unit3Data: ArtData[] = [
         title: 'Merovingian looped fibulae',
         artist: 'Unknown',
         images: ['/art/unit3/53.jpg'],
-        variant: 'gold',
+        variant: 'wood',
         unit: 'Unit 3: Early Europe and Colonial Americas',
         collegeBoardLine: 'Early medieval Europe. Mid-6th century C.E. Silver gilt worked in filigree, with inlays of garnets and other stones.',
         imageCredits: ['Merovingian looped fibulae © RMN-Grand Palais/Art Resource, NY'],
